@@ -38,31 +38,31 @@ Na aplicação é possível cadastrar um usuário, logar com um usuário, visual
 
 ## Autenticação
 
-<b>[GET] </b> /login : A rota deve exibir o formulário de login.<br><br>
+<b>[GET] </b> /login : A rota deve exibir o formulário de login.<br>
 
-<b> [POST] </b> /login : A rota deve fazer o login de um usuário.<br><br>
+<b> [POST] </b> /login : A rota deve fazer o login de um usuário.<br>
 
-<b>[GET] </b> /register : A rota deve exibir o formulário de registro.<br><br>
+<b>[GET] </b> /register : A rota deve exibir o formulário de registro.<br>
 
-<b>[POST] </b> /register : A rota deve salvar um novo usuário no banco de dados.<br><br>
+<b>[POST] </b> /register : A rota deve salvar um novo usuário no banco de dados.<br>
 
 <b>[GET] </b> /logout: A rota deve excluir a sessão de um usuário logado.<br>
 
 ## Pensamentos
 
-<b>[GET] </b> /pensamentos/ : A rota deve exibir todos os Pensamentos.<br><br>
+<b>[GET] </b> /pensamentos/ : A rota deve exibir todos os Pensamentos.<br>
 
-<b>[GET] </b> /pensamentos/dashboard : A rota deve exibir o dashboard do usuário se o usuário estiver logado.<br><br>
+<b>[GET] </b> /pensamentos/dashboard : A rota deve exibir o dashboard do usuário se o usuário estiver logado.<br>
 
-<b>[GET] </b> /pensamentos/add : A rota deve exibir o formulário de criação de pensamento se o usuário estiver logado.<br><br>
+<b>[GET] </b> /pensamentos/add : A rota deve exibir o formulário de criação de pensamento se o usuário estiver logado.<br>
 
-<b>[POST] </b> /pensamentos/add : A rota deve adicionar um pensamento no banco de dados se o usuário estiver logado.<br><br>
+<b>[POST] </b> /pensamentos/add : A rota deve adicionar um pensamento no banco de dados se o usuário estiver logado.<br>
 
-<b>[GET] </b> /pensamentos/edit/:id : A rota deve exibir o formulário de edição de pensamento de acordo com o ID do pensamento passado na URL se o usuário estiver logado.<br><br>
+<b>[GET] </b> /pensamentos/edit/:id : A rota deve exibir o formulário de edição de pensamento de acordo com o ID do pensamento passado na URL se o usuário estiver logado.<br>
 
-<b>[POST] </b> /pensamentos/edit : A rota deve alterar o pensamento no banco de dados se o usuário estiver logado.<br><br>
+<b>[POST] </b> /pensamentos/edit : A rota deve alterar o pensamento no banco de dados se o usuário estiver logado.<br>
 
-<b>[POST] </b> /pensamentos/remove : A rota deve remover um pensamento no banco de dados.<br><br>
+<b>[POST] </b> /pensamentos/remove : A rota deve remover um pensamento no banco de dados.<br>
 
 
 
